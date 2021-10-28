@@ -12,7 +12,9 @@ const Header = () => (
             <Link to="/shop" className="nav-item">
                 Shop
             </Link>
-            <Link className="nav-item">Contact</Link>
+            <Link to="/Contact Us" className="nav-item">
+                Contact
+            </Link>
             <Link to="/signin" className="nav-item">
                 Sign In
             </Link>
