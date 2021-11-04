@@ -4,6 +4,7 @@ import "./product-menu.css";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { selectProductSections } from "../../redux/Product-menu/productMenu-selector";
+
 const ProductMenu = ({ sections }) => (
     <div className="products-menu">
         {sections.map(({ title, id, imageUrl, size }) => (
